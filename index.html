@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <div>
+            <nav id="menu">
+                <div id="about"><p>About</p></div>
+                <div id="about"><p>Projects</p></div>
+                <div id="about"><p>Skills</p></div>
+                <div id="about"><p>Blog</p></div>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+        <div id="name"><h3>SRIKARASMIT</h3></div>
+        <div id="intro">
+            <p>I am full stack web developer and web designer.</p>
+            <p>Lean towards Frontend side.</p>
+        </div>
+    </section>
+    <hr>
+    <section id="skills">
+        <h3>SKILLS</h3>
+        <div id="skillBox">
+            <ol>
+                <li>
+                    <div class="skill">
+                        <img src="./assets/PERN.jpg" alt="" class="skillImg">
+                        <p>PERN</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill">
+                        <img src="./assets/DS.jpg" alt="" class="skillImg">
+                        <p>Data Science</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="skill">
+                        <img src="./assets/MLAI.jpg" alt="" class="skillImg">
+                        <p>ML / AI</p>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <h3>CONTACT ME</h3>
+        <div id="contactForm">
+            <form action="#" style="display: flex; flex-direction: column;">
+                <div class="formInput">
+                    <label for="name">Name : </label></form>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="formInput">
+                    <label for="email">Email : </label></form>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="formInput">
+                    <label for="description">Description : </label></form>
+                    <input type="text" name="description" id="description">
+                </div>
+                <input type="submit" id="submitBtn">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
